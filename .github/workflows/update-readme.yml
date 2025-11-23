@@ -1,5 +1,8 @@
 name: Update README timestamp
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "*/5 * * * *"
